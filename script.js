@@ -46,4 +46,41 @@ $(document).ready(() => {
   $('#dropdown-demo').on('hidden.bs.dropdown', () =>{
     console.log('hidden')
   })
+
+  const list = $('#tab-demo .list-group a')
+  list.click(function (event) {
+    event.preventDefault()
+    $(this).tab('show')
+  })
+
+  list.on('show.bs.tab', function (event) {
+    console.log(`開始顯示： ${ event.target.getAttribute('href') }`)
+  })
+
+  list.on('shown.bs.tab', function (event) {
+    console.log(`完全顯示： ${ event.target.getAttribute('href') }`)
+  })
+
+  list.on('hide.bs.tab', function (event) {
+    console.log(`開始隱藏： ${ event.target.getAttribute('href') }`)
+  })
+
+  list.on('hidden.bs.tab', function (event) {
+    console.log(`完全隱藏： ${ event.target.getAttribute('href') }`)
+  })
+
+
+  $('#modal-demo').on('show.bs.modal', function (){
+    console.log('show')
+  })
+
+  $('#modal-demo').on('shown.bs.modal', function (){
+    console.log('shown')
+  })
+  $('#modal-demo').on('hide.bs.modal', function (){
+    console.log('hide')
+  })
+  $('#modal-demo').on('hidden.bs.modal', function (){
+    console.log('hidden')
+  })
 })
