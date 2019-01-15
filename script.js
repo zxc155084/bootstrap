@@ -83,4 +83,8 @@ $(document).ready(() => {
   $('#modal-demo').on('hidden.bs.modal', function (){
     console.log('hidden')
   })
+
+  $('[data-toggle="popover"]').popover()
+
+  $('[data-toggle="tooltip"]').tooltip()
 })

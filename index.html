@@ -13,128 +13,99 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="./script.js" charset="utf-8"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target="#nav-demo">
 
-  <div class="component demo">
+  <div class="component demo" style="height: 300vh">
 
-    <h4>modal 控制</h4>
-    <div id="modal-demo" class="modal fade show" data-backdrop="false">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal</h5>
-            <button class="close" data-dismiss="modal">&times;</button>
-          </div>
+    <h4>Tooltips 工具提示</h4>
+    <button class="btn btn-primary"
+      data-toggle="tooltip"
+      title="hello ~ tooltip"
+      data-placement="right"
+      >
+      Tooltip
+    </button>
 
-          <div class="modal-body">
-            <p>hello ~ ~</p>
-          </div>
-
-          <div class="modal-footer">
-            <button class="btn btn-secondary">取消</button>
-            <button class="btn btn-info">確認</button>
-          </div>
-        </div>
+    <!-- <h4>Scrollspy 滾動間諜</h4> -->
+    <!-- <div class="row">
+      <div class="col-3">
+        <ul id="nav-demo" class="nav nav-pills flex-column position-fixed bg-light p-3 text-right">
+          <li class="nav-item">
+            <a href="#html" class="nav-link">HTML</a>
+          </li>
+          <li class="nav-item">
+            <a href="#css" class="nav-link">CSS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#javascript" class="nav-link">JavaScript</a>
+          </li>
+        </ul>
       </div>
-    </div>
-
-    <button class="btn btn-danger"
-    data-toggle="modal"
-    data-target="#modal-demo">刪除(進階控制)</button>
-
-  </br>
-</br>
-
-    <h4>modal 對話框</h4>
-    <div id="modal-demo1" class="modal fade show">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal</h5>
-            <button class="close" data-dismiss="modal">&times;</button>
-          </div>
-
-          <div class="modal-body">
-            <p>hello ~ ~</p>
-          </div>
-
-          <div class="modal-footer">
-            <button class="btn btn-secondary">取消</button>
-            <button class="btn btn-info">確認</button>
-          </div>
-        </div>
+      <div class="col-9">
+          <h3 id="html">HTML</h3>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <h3 id="css">CSS</h3>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <h3 id="javascript">JavaScript</h3>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
+          <p>一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。</p>
       </div>
+    </div> -->
+
+
+    <!-- <h4>Progress 進度條</h4>
+
+    <div class="progress">
+      <div class="bg-danger progress-bar progress-bar-striped projress-bar-animated" style="width: 32%">32%</div>
     </div>
 
-    <button class="btn btn-danger"
-    data-toggle="modal"
-    data-target="#modal-demo1">刪除</button>
+    </br>
+    </br>
 
-  </br>
-</br>
-      <h4>list group 控制</h4>
-      <div id="tab-demo" class="row">
-        <div class="col-4">
-          <div class="list-group">
-            <a href="#html-content" class="list-group-item list-group-item-action active">HTML</a>
-            <a href="#css-content" class="list-group-item list-group-item-action">CSS</a>
-            <a href="#javascript-content" class="list-group-item ist-group-item-action">JavaScript</a>
-          </div></div>
-        <div class="col-8">
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="html-content">hello html.</div>
-                <div class="tab-pane fade" id="css-content">hello css.</div>
-                <div class="tab-pane fade" id="javascript-content">hello javascript.</div>
-              </div>
-        </div>
-      </div>  
 
-  </br>
-</br>
-    <h4>list group 切換顯示標籤內容</h4>
-
-    <div class="row">
-      <div class="col-4">
-        <div class="list-group">
-          <a data-toggle="list" href="#html-content" class="list-group-item list-group-item-action active">HTML</a>
-          <a data-toggle="list" href="#css-content" class="list-group-item list-group-item-action">CSS</a>
-          <a data-toggle="list" href="#javascript-content" class="list-group-item ist-group-item-action">JavaScript</a>
-        </div></div>
-      <div class="col-8">
-          <div class="tab-content">
-              <div class="tab-pane fade show active" id="html-content">hello html.</div>
-              <div class="tab-pane fade" id="css-content">hello css.</div>
-              <div class="tab-pane fade" id="javascript-content">hello javascript.</div>
-            </div>
-      </div>
-    </div>    
-
-  </br>
-  </br>
-    <h4>list group</h4>
-    <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action disabled">HTML</a>
-      <a href="#" class="list-group-item list-group-item-warning">CSS</a>
-      <a href="#" 
-        class="list-group-item 
-          list-group-item-action
-          d-flex
-          justify-content-between
-          align-items-center">JavaScript
-          <span class="badge badge-primary badge-pill">12</span>
-        </a>
-    </div>
+    <h4>Popovers 提示信息</h4>
+    <button class="btn btn-primary"
+      data-toggle="popover"
+      title="一重山"
+      data-content="一重山，兩重山。山遠天高煙水寒，相思楓葉丹。菊花開，菊花殘。塞雁高飛人未還，一簾風月閒。"
+      data-placement="bottom"
+      data-trigger="focus"
+      >
+      Pop
+    </button>
 
   </br>
   </br>
 
-    <h4>jumbotron 大屏幕</h4>
-    <div class="jumbotron">
-      <h1 class="display-1">hello</h1>
-      <p class="lead mb-4">Welcome to ninghao.net</p>
-      <a href="#" class="btn btn-primary btn-lg">Subscribe</a>
-    </div>
-    
+    <h4>Pagination 分頁器</h4>
+    <ul class="pagination pagination-lg justify-content-center">
+      <li class="page-item disabled">
+        <a href="#" class="page-link">後退</a>
+      </li>
+      <li class="page-item active">
+        <a href="#" class="page-link">1</a>
+      </li>
+      <li class="page-item">
+          <a href="#" class="page-link">2</a>
+      </li>  
+      <li class="page-item">
+          <a href="#" class="page-link">3</a>
+      </li>  
+      <li class="page-item">
+          <a href="#" class="page-link">前進</a>
+      </li>        
+    </ul> -->
 
   </div> 
 

@@ -1,0 +1,292 @@
+<?xml version="1.0" enconding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninghao Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./script.js" charset="utf-8"></script>
+</head>
+<body>
+
+  <div class="component demo" style="height: 300vh">
+
+        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+                <a href="#" class="navbar-brand">ninghao</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content-1">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-content-1">
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">學習</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">社區</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">博客</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <div>
+                <span>navbar 導航欄的位置 置頂 fixed-top</span>
+              </div>
+              <div>
+                  <span>navbar 導航欄的位置 置底 fixed-bottom</span>
+              </div>
+              <div>
+                  <span>navbar 導航欄的位置 sticky-top，當遇到置頂就不會在改變一直置頂</span>
+              </div>
+        </br>
+        </br>
+
+      <h4>navbar 響應式的導航欄</h4>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand">ninghao</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content-1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-content-1">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link">學習</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">社區</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">博客</a></li>
+          </ul>
+        </div>
+      </nav>
+
+  </br>
+  </br>
+
+      <h4>navbar 導航欄</h4>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand">ninghao</a>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link">學習</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">社區</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">博客</a></li>
+        </ul>
+      </nav>
+
+  </br>
+  </br>
+
+      <h4>nav 導航</h4>
+      <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">HTML</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">CSS</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">JavaScript</a>
+          </li>  
+        </ul>
+        <h4>------------------------</h4> 
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a href="#" class="nav-link">HTML</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">CSS</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">JavaScript</a>
+        </li>  
+      </ul>
+
+      <h4>------------------------</h4> 
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a href="#" class="nav-link">HTML</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">CSS</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">JavaScript</a>
+        </li>  
+      </ul>
+
+      <h4>------------------------</h4> 
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link">HTML</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">CSS</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">JavaScript</a>
+        </li>  
+      </ul>
+
+      <h4>------------------------</h4> 
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">HTML</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">CSS</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">JavaScript</a>
+        </li>  
+      </ul>
+
+      <h4>------------------------</h4> 
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">HTML</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">CSS</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">JavaScript</a>
+        </li>  
+      </ul>
+
+
+      <h4>------------------------</h4> 
+      <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">HTML</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">CSS</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">JavaScript</a>
+        </li>  
+      </ul>
+  </br>
+  </br>
+
+    <h4>modal 控制</h4>
+    <div id="modal-demo" class="modal fade show" data-backdrop="false">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal</h5>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <p>hello ~ ~</p>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-secondary">取消</button>
+            <button class="btn btn-info">確認</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-danger"
+    data-toggle="modal"
+    data-target="#modal-demo">刪除(進階控制)</button>
+
+  </br>
+</br>
+
+    <h4>modal 對話框</h4>
+    <div id="modal-demo1" class="modal fade show">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal</h5>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <p>hello ~ ~</p>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-secondary">取消</button>
+            <button class="btn btn-info">確認</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-danger"
+    data-toggle="modal"
+    data-target="#modal-demo1">刪除</button>
+
+  </br>
+</br>
+      <h4>list group 控制</h4>
+      <div id="tab-demo" class="row">
+        <div class="col-4">
+          <div class="list-group">
+            <a href="#html-content" class="list-group-item list-group-item-action active">HTML</a>
+            <a href="#css-content" class="list-group-item list-group-item-action">CSS</a>
+            <a href="#javascript-content" class="list-group-item ist-group-item-action">JavaScript</a>
+          </div></div>
+        <div class="col-8">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="html-content">hello html.</div>
+                <div class="tab-pane fade" id="css-content">hello css.</div>
+                <div class="tab-pane fade" id="javascript-content">hello javascript.</div>
+              </div>
+        </div>
+      </div>  
+
+  </br>
+</br>
+    <h4>list group 切換顯示標籤內容</h4>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group">
+          <a data-toggle="list" href="#html-content" class="list-group-item list-group-item-action active">HTML</a>
+          <a data-toggle="list" href="#css-content" class="list-group-item list-group-item-action">CSS</a>
+          <a data-toggle="list" href="#javascript-content" class="list-group-item ist-group-item-action">JavaScript</a>
+        </div></div>
+      <div class="col-8">
+          <div class="tab-content">
+              <div class="tab-pane fade show active" id="html-content">hello html.</div>
+              <div class="tab-pane fade" id="css-content">hello css.</div>
+              <div class="tab-pane fade" id="javascript-content">hello javascript.</div>
+            </div>
+      </div>
+    </div>    
+
+  </br>
+  </br>
+    <h4>list group</h4>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action disabled">HTML</a>
+      <a href="#" class="list-group-item list-group-item-warning">CSS</a>
+      <a href="#" 
+        class="list-group-item 
+          list-group-item-action
+          d-flex
+          justify-content-between
+          align-items-center">JavaScript
+          <span class="badge badge-primary badge-pill">12</span>
+        </a>
+    </div>
+
+  </br>
+  </br>
+
+    <h4>jumbotron 大屏幕</h4>
+    <div class="jumbotron">
+      <h1 class="display-1">hello</h1>
+      <p class="lead mb-4">Welcome to ninghao.net</p>
+      <a href="#" class="btn btn-primary btn-lg">Subscribe</a>
+    </div>
+    
+
+  </div> 
+
+
+</body>
+</html>
